@@ -1,0 +1,18 @@
+server:
+   port: 80
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/udemy-hybernate
+    username: postgres
+    password: 1
+    initialization-mode: always
+
+  data:
+    rest:
+      base-path: /api
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
