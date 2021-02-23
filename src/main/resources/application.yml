@@ -7,7 +7,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/udemy-hybernate
     username: postgres
     password: 1
-    initialization-mode: always
+    initialization-mode: never
 
   data:
     rest:
@@ -16,3 +16,5 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+
